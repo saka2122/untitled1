@@ -2,16 +2,22 @@ package reviews.reviews1;
 
 public class Reviews14 {
     public static void main(String[] args) {
-        int a=10;int b =20;int c =10;
-        System.out.println(a==b);
-        System.out.println(a==c);
-        System.out.println(a!=b);
-        System.out.println(a!=c);
-        System.out.println(a<b);
-        System.out.println(a<=c);
-        System.out.println(a>b);
-        System.out.println(a+10==b);
-        System.out.println(c+10<b+-5);
+        String color ="赤";
+        switch(color){
+            case "赤":
+                System.out.println("停止");
+                break;
+                case "黄":
+                    System.out.println("注意");
+                    break;
+                    case "青":
+                        System.out.println("進行");
+                        break;
+            default:
+                System.out.println("無効な信号の色です。");
 
+
+
+        }
     }
 }
